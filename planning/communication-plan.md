@@ -39,7 +39,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 | -------- | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | _Nazgul_ |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
 | _Inna_   | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 11am - 5pm |
-| _Maha_   |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
+| _Maha_   | 10am - 1pm | 10am -1pm  | 10am -1pm  | 10am -1pm  |    ...     | 12pm - 3pm | 11am - 5pm |
 | _Shewit_ | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 8pm - 11pm |
 | _Ali_    | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 5pm - 8pm  | 11am - 5pm |
 
@@ -47,7 +47,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 - Nazgul: _h_;
 - Inna: _6h_;
-- Maha: _h_;
+- Maha: _3h_;
 - Shewit: _3h_;
 - Ali: _3h_;
 
