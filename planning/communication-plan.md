@@ -3,18 +3,21 @@
 ## Group Rules
 
 <!-- any general rules you'd like to set for your group? -->
- - Please try to show-up for daily stand-ups if it's in the time frame you indicated you'll be available for
+
+- Please try to show-up for daily stand-ups if it's in the time frame you
+  indicated you'll be available for
+
 ---
 
 ## Communication Schedule
 
-| Day       | How | The topic of discussion |
-| --------- | :-: | ----------------------- |
-| Monday    | ... | next steps after user-personas                     |
-| Tuesday   | ... | ...                     |
-| Wednesday | ... | ...                     |
-| Thursday  | ... | ...                     |
-| Friday    | ... | ...                     |
+| Day       | How | The topic of discussion        |
+| --------- | :-: | ------------------------------ |
+| Monday    | ... | next steps after user-personas |
+| Tuesday   | ... | ...                            |
+| Wednesday | ... | ...                            |
+| Thursday  | ... | ...                            |
+| Friday    | ... | ...                            |
 
 <!-- ## Communication Channels
 
