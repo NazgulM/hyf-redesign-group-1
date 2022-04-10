@@ -38,7 +38,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 | Day      |   Monday   |  Tuesday   | Wednesday  |  Thursday  |   Friday   |  Saturday  |   Sunday   |
 | -------- | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | _Nazgul_ |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
-| _Inna_   |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
+| _Inna_   | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 6pm - 12pm | 11am - 5pm |
 | _Maha_   |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
 | _Shewit_ | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 8pm - 11pm |
 | _Ali_    | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 5pm - 8pm  | 11am - 5pm |
@@ -46,7 +46,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 ### How many hours everyone has per day
 
 - Nazgul: _h_;
-- Inna: _h_;
+- Inna: _6h_;
 - Maha: _h_;
 - Shewit: _3h_;
 - Ali: _3h_;
