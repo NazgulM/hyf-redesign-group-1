@@ -3,14 +3,14 @@
 ## Group Rules
 
 <!-- any general rules you'd like to set for your group? -->
-
+ - Please try to show-up for daily stand-ups if it's in the time frame you indicated you'll be available for
 ---
 
 ## Communication Schedule
 
 | Day       | How | The topic of discussion |
 | --------- | :-: | ----------------------- |
-| Monday    | ... | ...                     |
+| Monday    | ... | next steps after user-personas                     |
 | Tuesday   | ... | ...                     |
 | Wednesday | ... | ...                     |
 | Thursday  | ... | ...                     |
@@ -38,7 +38,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 | _Inna_   |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
 | _Maha_   |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
 | _Shewit_ | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 7pm - 11pm | 8pm - 11pm |
-| _Ali_    |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |    ...     |
+| _Ali_    | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 7pm - 12pm | 5pm - 8pm  | 11am - 5pm |
 
 ### How many hours everyone has per day
 
@@ -46,7 +46,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 - Inna: _h_;
 - Maha: _h_;
 - Shewit: _3h_;
-- Ali: _h_;
+- Ali: _3h_;
 
 ## Asking for Help
 
