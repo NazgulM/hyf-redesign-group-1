@@ -1,6 +1,15 @@
 {
   "language": "en",
-  "words": ["Maha", "Nazgul", "Shewit", "Inna", "X", "Todos", "socio"],
+  "words": [
+    "Excalidraw",
+    "Inna",
+    "Maha",
+    "Nazgul",
+    "Shewit",
+    "socio",
+    "Todos",
+    "X"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
