@@ -28,27 +28,26 @@ for HackYourFutureBelgium website.
 4. Skills: She is a beginner in programming (she has a very limited knowledge in
    programming).
 
-- **Scenario 1**:  Sara is a newcomer in Belgium and as her new situation she
+- **Scenario 1**: Sara is a newcomer in Belgium and as her new situation she
   really does need to learn coding to begin her future career that she hopes and
   meets her requirements.
 
 ## Technical director 💻
 
 - **Bio**: Jill Adams is 39 years old Technical Director in IBM, Brussels. One
-of her job responsibilities is to conduct technical interviews an participate in
-the selection and hiring new IT specialists and interns.
+  of her job responsibilities is to conduct technical interviews an participate
+  in the selection and hiring new IT specialists and interns.
 
 - **Needs/Goals**: As a leader of technical managers, It specialists she has to
-lead on strategy, hiring, coaching high performing team. For new charitable
-start-up needs to recruit a staff of interns who need to work under the
-supervision
-of senior technical managers and Web Developers.
+  lead on strategy, hiring, coaching high performing team. For new charitable
+  start-up needs to recruit a staff of interns who need to work under the
+  supervision of senior technical managers and Web Developers.
 
 - **Frustrations**: Main frustration for Jill is high workload, cybersecurity
-threats, team management, hiring and retaining talent.
+  threats, team management, hiring and retaining talent.
 
 - **Scenario 1**: Jill has to represent presentation of new start-up with new
-hired talents and interns as soon as possible, so for this moment cooperation
-with Hack Your Future Belgium is the most suitable option. Since students are
-registered for this Web Development course twice a year, and just by this time
-there are graduates, so two companies in win-win position.
+  hired talents and interns as soon as possible, so for this moment cooperation
+  with Hack Your Future Belgium is the most suitable option. Since students are
+  registered for this Web Development course twice a year, and just by this time
+  there are graduates, so two companies in win-win position.
