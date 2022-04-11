@@ -55,3 +55,27 @@ for HackYourFutureBelgium website.
 ## Sponsor
 
 ![sponsor](assets/user_persona2.png)
+
+## Volunteer-coach
+
+- **Bio**: Dmytro Chumachenko 35 years old , founder of the Profit IT school in
+  Kiev .
+
+- **Needs/Goals**: Dmytro Chumachenko is one of those who teaches a new
+  generation of Ukrainian specialists in the field of information technology
+  (Front-end,Java,PHP,Python,DevOps,Hi-tech) . He teaches various disciplines at
+  the Department of Mathematical Modeling and Artificial Intelligence at the
+  National Aerospace University. Zhukovsky (Kiev). At the same time, Dmytro
+  conducts educational events at the department within the framework of the
+  social project School of IT Professionals “ProfIT”, where successful
+  representatives of business, media and politics share their experience with
+  students.
+
+- **Frustrations**: Main frustration for Dmytro Chumachenkois moving to a new
+  country and not be able to be a coach at school. Dmytro has a main job . But
+  he would like to practice his knowledge with people on a volunteer basic.
+
+- **Scenario 1**: Dmytro left his country for 1 year . Currently working in
+  Brussels, he is looking for a programming school where he could volunteer and
+  share his knowledge. Since he had only experience in his country , he would
+  like to improve his teaching skills. And learn something new .
