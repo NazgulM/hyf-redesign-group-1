@@ -51,3 +51,7 @@ for HackYourFutureBelgium website.
   with Hack Your Future Belgium is the most suitable option. Since students are
   registered for this Web Development course twice a year, and just by this time
   there are graduates, so two companies in win-win position.
+
+## Sponsor
+
+![sponsor](assets/user_persona2.png)
