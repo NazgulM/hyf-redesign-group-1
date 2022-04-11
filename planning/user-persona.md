@@ -55,3 +55,33 @@ for HackYourFutureBelgium website.
 ## Sponsor
 
 ![sponsor](assets/user_persona2.png)
+
+## Potential Coach/Mentor
+
+- **Bio**: Erik is an experienced full-stack web developer working for a Dutch
+  tech start up. He has 15 years of experience with Javascript, PHP, Python and
+  many other languages and skills. He lives in Maastricht and works mostly
+  online
+
+- **Needs/Goals**: He wants to share his knowledge and expertise with people who
+  are passionate to learn and hopes to work as a peer with them someday. He also
+  wants to gain something for himself such as practicing his French or English,
+  improving his teaching skills etc.
+
+- **Frustrations**: He feels that being another Youtuber uploading tutorials or
+  uploading other online content on educational platforms is not the best way he
+  can contribute as there already exist many such learning materials for
+  students. He wants to have a more personalized teaching method and to motivate
+  the students and respond directly to their issues. However, it's hard for him
+  to find an institution that strives towards creating a more personalized
+  curriculum for their students rather than trying to maximize their profits. He
+  would also prefer to have an easier application process and being able to
+  gather feedback about their experience from previous coaches/mentors
+
+- **Scenario 1**: Erik is happy with what he's earning at his tech job and isn't
+  necessarily looking for an extra job with extra income that will take up too
+  much of his time. He's willing to be an online coach and even attend on campus
+  sometimes so he's searching for a flexible position in the Netherlands or
+  Belgium to easily apply and receive a swift response so he could get started
+  quickly. If he feels it's a big company that will be too rigid with their many
+  rules, he will withdraw his application.
