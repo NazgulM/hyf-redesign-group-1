@@ -6,11 +6,10 @@ project success
 ## External
 
 - Time
-  
+
 Project deadline is one week.
 
 > This week we have a lot to learn and using Bootstrap 5
-
 
 <!--
   constraints coming from the outside that your team has no control over. these may include:
@@ -60,5 +59,3 @@ Project deadline is one week.
 - agree on a code review checklist for the project repository
 - the number of hours you want to spend working
 - only using the colors black and white -->
-
-
