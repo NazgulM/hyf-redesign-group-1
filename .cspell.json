@@ -1,6 +1,10 @@
 {
   "language": "en",
   "words": [
+    "Chumachenko",
+    "Chumachenkois",
+    "Dmitry",
+    "Dmytro",
     "Excalidraw",
     "Inna",
     "Maha",
@@ -8,7 +12,9 @@
     "Shewit",
     "socio",
     "Todos",
-    "X"
+    "X",
+    "Youtuber",
+    "Zhukovsky"
   ],
   "ignorePaths": [
     "node_modules/**",
