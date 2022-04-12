@@ -5,7 +5,12 @@ project success
 
 ## External
 
+- Time
+  
 Project deadline is one week.
+
+> This week we have a lot to learn and using Bootstrap 5
+
 
 <!--
   constraints coming from the outside that your team has no control over. these may include:
@@ -18,10 +23,15 @@ Project deadline is one week.
 
 ### Technologies
 
-- Github
-- VSCode
-- HTML & CSS
-- Excalidraw
+:ballot_box_with_check: VS Code
+
+:ballot_box_with_check: GitHub
+
+:ballot_box_with_check: MD
+
+:ballot_box_with_check: HTML
+
+:ballot_box_with_check: CSS
 
 <!--
   constraints that come from within your team, and you have no control over them. they may include:
@@ -33,13 +43,15 @@ Project deadline is one week.
 
 ### Availability
 
-- Each team member's availability .......
+- Each team member's availability min 3 hours.
+- [Check our communication plan](./communication-plan.md)
 
 ### Communication
 
 1. Discord
 2. Zoom
 3. GitHub discussion
+4. Google Meet
 
 <!--
   constraints that your team decided on to help scope the project. they may include:
@@ -48,3 +60,5 @@ Project deadline is one week.
 - agree on a code review checklist for the project repository
 - the number of hours you want to spend working
 - only using the colors black and white -->
+
+
