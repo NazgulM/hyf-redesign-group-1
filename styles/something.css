@@ -1,3 +1,132 @@
 body {
   background-color: white;
 }
+
+.box {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 1px;
+  padding-bottom: 50px;
+  padding-left: 1px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  background-color: rgb(212, 230, 236);
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 1px;
+  margin: 1px;
+}
+
+.inside {
+  display: flex;
+  padding: 100px;
+  flex-direction: column;
+}
+
+.values {
+  font-size: 28px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.first {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first > img {
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
+.community {
+  width: auto;
+  height: auto;
+  object-fit: fill;
+  border-radius: 1px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.com_text {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 1px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.link-primary {
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 600;
+  padding: 10px 1px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  margin: 10px;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 300px;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
