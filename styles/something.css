@@ -1,3 +1,37 @@
 body {
   background-color: white;
 }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border: transparent;
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+  font-size: 70%;
+  font-weight: lighter;
+}
+
+.nav-item a:hover {
+  text-decoration: underline solid 3px rgb(58, 78, 202);
+  text-underline-offset: 8px;
+}
+
+.nav-item button {
+  background-color: rgb(58, 78, 202);
+  font-size: small;
+  font-weight: bold;
+}
+
+img {
+  height: 50px;
+}
+
+.navbar-toggler-icon:hover {
+  background-color: rgb(209, 208, 208);
+}
