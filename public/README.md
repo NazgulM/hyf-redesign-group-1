@@ -17,6 +17,7 @@
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Team Members](#team-members)
+  - [Coaches](#coaches)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
@@ -67,6 +68,12 @@ Project by [Hack Your Future](https://hackyourfuture.be/)
 3. [Maha](https://github.com/MahaLubbad)
 4. [Ali](https://github.com/alihaidermalik20)
 5. [Shewit](https://github.com/Shewitttt)
+
+## Coaches
+
+- [Daniel](https://github.com/danielhalasz)
+- [Bermarte](https://github.com/bermarte)
+- [Tamer](https://github.com/talmurshidi)
 
 ## Instructions for use
 
