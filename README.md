@@ -1,20 +1,22 @@
-# Name of project
+# Re-design of Hack Your Future Website
 
-> A longer description
+> In this project, the [Hack Your Future](https://hackyourfuture.be/) website is
+> redesigned. The main goal is to implement agile development in practice.
+> Proper planning and collaborating with team mates helps the task get done
+> easily.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Re-design of Hack Your Future Website](#re-design-of-hack-your-future-website)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
-  - [Setup](#setup)
   - [Code Examples](#code-examples)
   - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
-  - [Contact](#contact)
+  - [Team Members](#team-members)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
@@ -22,42 +24,32 @@
 
 ## General info
 
-> A short description
+> Hack Your Future in a non-profit organization which helps refugees/new comers
+> build digital and soft skills for a career in web development. In this project
+> Hack Your Future website is rebuilt to learn mainly planning and
+> collaborating, practice agile development and add HTML/CSS skills. The website
+> is free to either rebuild or redesign it totally or add additional features.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](assets/screenshot-hyf.png)
 
 ## Technologies
 
-- Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
-
-## Setup
-
-- `npm run start`
+- VS code
+- HTML
+- CSS
+- BOOTSTRAP v5.0
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
-```
+![Example screenshot](assets/code-example.png)
 
 ## Features
 
-List of features ready and Todos for future development
+- _Responsive website_
+- _Recreated with HTML and CSS only (+ bootstrap v5.0)_
 
--
--
--
-
-To-do list:
-
--
 -
 
 ## Status
@@ -66,11 +58,15 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by [Hack Your Future](https://hackyourfuture.be/)
 
-## Contact
+## Team Members
 
-By [Name]
+1. [Nazgul](https://github.com/NazgulM)
+2. [Inna](https://github.com/inna9Z)
+3. [Maha](https://github.com/MahaLubbad)
+4. [Ali](https://github.com/alihaidermalik20)
+5. [Shewit](https://github.com/Shewitttt)
 
 ## Instructions for use
 

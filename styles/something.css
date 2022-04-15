@@ -2,21 +2,20 @@ body {
   background-color: white;
 }
 
-.box {
+.container {
   display: flex;
   -webkit-box-pack: end;
   justify-content: flex-end;
   width: 100%;
-  padding: 50px 50px;
+  padding: 50px 0px;
   position: relative;
   box-shadow: none;
   background: none;
-  background-color: rgb(212, 230, 236);
   z-index: 1;
   flex: 0 0 auto;
 }
 
-.block {
+.col-8 {
   display: flex;
   flex-direction: column;
   -webkit-box-pack: center;
@@ -29,14 +28,7 @@ body {
   margin: 10px;
 }
 
-.inside {
-  display: flex;
-  background-color: rgb(248, 249, 252);
-  padding: 100px;
-  flex-direction: column;
-}
-
-.values {
+h1 {
   font-size: 28px;
   line-height: 140%;
   margin-bottom: 20px;
@@ -51,7 +43,7 @@ body {
   animation-duration: 3s;
 }
 
-.columns {
+.col {
   display: flex;
   flex-wrap: wrap;
   -webkit-box-flex: 1;
@@ -60,30 +52,26 @@ body {
   justify-content: space-between;
 }
 
-.first {
-  display: flex;
-  width: 40%;
-  flex-direction: column;
-  align-items: flex-start;
+.p-3 {
+display: flex;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
 }
+
 
 img {
   height: 50px;
 }
 
-.first > img {
+.card-img-top {
   margin-bottom: 20px;
   min-height: 70px;
   object-fit: contain;
+  border-radius: 0px;
 }
 
-.community {
-  width: auto;
-  height: auto;
-  border-radius: 1px;
-}
-
-.name {
+h5 {
   font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
@@ -92,11 +80,11 @@ img {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 700;
   color: rgb(28, 34, 148);
-  text-align: left;
+  text-align: center;
   max-width: none;
 }
 
-.com_text {
+.paragraph {
   color: rgb(45, 48, 55);
   text-align: left;
   max-width: none;
@@ -110,15 +98,15 @@ img {
   font-weight: 300;
 }
 
-.link-primary {
+.btn {
   display: inline-flex;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 160%;
-  font-weight: 600;
+  font-weight: 300;
   padding: 10px 1px;
   text-transform: uppercase;
-  -webkit-box-align: center;
-  margin: 10px;
+  -webkit-box-align: left;
+  margin: 20px;
 }
 
 @keyframes slidein {
