@@ -35,3 +35,11 @@ img {
 .navbar-toggler-icon:hover {
   background-color: rgb(209, 208, 208);
 }
+
+.text-color {
+  background-color: rgb(58, 78, 202) !important;
+}
+
+.color-b1 {
+  color: rgb(58, 78, 202);
+}
