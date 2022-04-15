@@ -18,7 +18,10 @@
     "Todos",
     "X",
     "Youtuber",
-    "Zhukovsky"
+    "Zhukovsky",
+    "Epitech",
+    "divs",
+    "Bermarte"
   ],
   "ignorePaths": [
     "node_modules/**",
