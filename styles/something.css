@@ -43,7 +43,7 @@ body {
   animation-duration: 3s;
 }
 
-.col {
+.common {
   display: flex;
   flex-wrap: wrap;
   -webkit-box-flex: 1;
