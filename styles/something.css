@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 
-.container {
+.core {
   display: flex;
   -webkit-box-pack: end;
   justify-content: flex-end;
@@ -15,7 +15,7 @@ body {
   flex: 0 0 auto;
 }
 
-.col-8 {
+.value {
   display: flex;
   flex-direction: column;
   -webkit-box-pack: center;
@@ -28,7 +28,7 @@ body {
   margin: 10px;
 }
 
-h1 {
+.words {
   font-size: 28px;
   line-height: 140%;
   margin-bottom: 20px;
@@ -52,13 +52,6 @@ h1 {
   justify-content: space-between;
 }
 
-.p-3 {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 img {
   height: 50px;
 }
@@ -70,7 +63,7 @@ img {
   border-radius: 10px;
 }
 
-h5 {
+.text-center {
   font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
@@ -96,15 +89,15 @@ h5 {
   font-weight: 300;
 }
 
-.btn {
+.click {
   display: inline-flex;
   font-size: 14px;
   line-height: 160%;
-  font-weight: 300;
+  font-weight: 400;
   padding: 10px 1px;
   text-transform: uppercase;
   -webkit-box-align: left;
-  margin: 20px;
+  margin: 10px;
 }
 
 @keyframes slidein {
@@ -149,4 +142,12 @@ h5 {
 
 .navbar-toggler-icon:hover {
   background-color: rgb(209, 208, 208);
+}
+
+.text-color {
+  background-color: rgb(58, 78, 202) !important;
+}
+
+.color-b1 {
+  color: rgb(58, 78, 202);
 }
