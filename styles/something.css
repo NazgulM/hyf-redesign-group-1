@@ -83,7 +83,7 @@ h5 {
   max-width: none;
 }
 
-p {
+.paragraph {
   color: rgb(45, 48, 55);
   text-align: left;
   max-width: none;
