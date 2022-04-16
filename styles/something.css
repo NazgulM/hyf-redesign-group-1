@@ -1,5 +1,16 @@
-body {
-  background-color: white;
+:root {
+  --color-one: rgb(28, 34, 148);
+  --color-two: #e5e5e5;
+}
+
+p {
+  font-family: "Space Mono", monospace, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Work Sans", sans-serif;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -28,10 +39,6 @@ body {
   font-weight: bold;
 }
 
-img {
-  height: 50px;
-}
-
 .navbar-toggler-icon:hover {
   background-color: rgb(209, 208, 208);
 }
@@ -42,4 +49,8 @@ img {
 
 .color-b1 {
   color: rgb(58, 78, 202);
+}
+
+.hyf-color {
+  color: var(--color-one);
 }
