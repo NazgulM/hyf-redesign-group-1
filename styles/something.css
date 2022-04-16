@@ -43,6 +43,12 @@ h3 {
   background-color: rgb(209, 208, 208);
 }
 
+/* Hover effect for donation */
+
+ul > li:hover {
+  background-color: #0d6efd;
+}
+
 .text-color {
   background-color: rgb(58, 78, 202) !important;
 }
