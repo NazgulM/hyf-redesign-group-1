@@ -16,6 +16,105 @@ h3 {
   font-family: "Work Sans", sans-serif;
 }
 
+.core {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 50px 1px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+.anim {
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.common {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.heads {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: center;
+  max-width: none;
+}
+
+.paragraph {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 1px;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.click {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 400;
+  padding: 10px 1px;
+  text-transform: uppercase;
+  -webkit-box-align: left;
+  margin: 10px;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 300px;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -61,5 +160,5 @@ h3 {
 .testTxt {
   text-align: center;
   font-size: 50px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }

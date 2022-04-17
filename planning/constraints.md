@@ -7,9 +7,9 @@ project success
 
 - Time
 
-Project deadline is one week.
+Project deadline is two weeks.
 
-> This week we have a lot to learn and using Bootstrap 5
+> The first week we have to learn and start using Bootstrap 5
 
 <!--
   constraints coming from the outside that your team has no control over. these may include:
