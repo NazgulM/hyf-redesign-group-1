@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;700&display=swap");
+
 :root {
   --color-one: rgb(28, 34, 148);
   --color-two: #e5e5e5;
@@ -152,4 +155,10 @@ h3 {
 
 .hyf-color {
   color: var(--color-one);
+}
+
+.testTxt {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Kaushan Script", cursive;
 }
