@@ -1,27 +1,29 @@
 {
   "language": "en",
   "words": [
+    "Bermarte",
+    "Cantersteen",
     "Chumachenko",
     "Chumachenkois",
     "cpath",
     "csvg",
     "DIGITALENTS",
+    "divs",
     "Dmitry",
     "Dmytro",
+    "Epitech",
     "Excalidraw",
     "Inna",
     "Maha",
     "navmenu",
     "Nazgul",
     "Shewit",
+    "slidein",
     "socio",
     "Todos",
     "X",
     "Youtuber",
-    "Zhukovsky",
-    "Epitech",
-    "divs",
-    "Bermarte"
+    "Zhukovsky"
   ],
   "ignorePaths": [
     "node_modules/**",
