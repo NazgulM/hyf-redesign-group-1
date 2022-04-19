@@ -54,7 +54,17 @@ h3 {
 /* showcase */
 .card-img {
   height: 400px;
+  object-fit: cover;
   opacity: 0.7;
+}
+
+.heading {
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: none;
+  text-align: center;
 }
 
 .image-container {
