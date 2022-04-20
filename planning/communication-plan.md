@@ -11,13 +11,13 @@
 
 ## Communication Schedule
 
-| Day       | How | The topic of discussion        |
-| --------- | :-: | ------------------------------ |
-| Monday    | ... | next steps after user-personas |
-| Tuesday   | ... | ...                            |
-| Wednesday | ... | ...                            |
-| Thursday  | ... | ...                            |
-| Friday    | ... | ...                            |
+| Day       | How | The topic of discussion                                                    |
+| --------- | :-: | -------------------------------------------------------------------------- |
+| Monday    | ... | next steps after user-personas                                             |
+| Tuesday   | ... | discusses back-log and decided on must/should/could haves for each persona |
+| Wednesday | ... | study bootstrap                                                            |
+| Thursday  | ... | short stand-up meeting                                                     |
+| Friday    | ... | short stand-up meeting                                                     |
 
 <!-- ## Communication Channels
 
