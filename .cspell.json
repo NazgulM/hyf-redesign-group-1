@@ -15,6 +15,7 @@
     "Excalidraw",
     "Inna",
     "Maha",
+    "MENTORE",
     "Miyata",
     "Morillo",
     "navmenu",
@@ -27,7 +28,13 @@
     "Victoriya",
     "X",
     "Youtuber",
-    "Zhukovsky"
+    "Zhukovsky",
+    "Halasz",
+    "Gelila",
+    "Channa",
+    "Lizhen",
+    "Yoshi",
+    "smcards"
   ],
   "ignorePaths": [
     "node_modules/**",
