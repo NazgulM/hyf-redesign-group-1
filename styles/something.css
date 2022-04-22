@@ -2,11 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;700&display=swap");
 
 :root {
+  /* hyf dark blue color */
   --color-one: rgb(28, 34, 148);
-  --color-two: #e5e5e5;
+
+  /* hyf lighter blue color */
+  --color-two: rgb(74, 80, 187);
 }
 
-p {
+body {
+  overflow-x: hidden;
+}
+
+p,
+label {
   font-family: "Space Mono", monospace, sans-serif;
 }
 
@@ -14,6 +22,61 @@ h1,
 h2,
 h3 {
   font-family: "Work Sans", sans-serif;
+}
+
+/* navbar */
+.image {
+  height: 50px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border: transparent;
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+  font-size: 70%;
+  font-weight: lighter;
+}
+
+.nav-item a:hover {
+  text-decoration: underline solid 3px rgb(58, 78, 202);
+  text-underline-offset: 8px;
+}
+
+.nav-item button {
+  background-color: rgb(58, 78, 202);
+  font-size: small;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon:hover {
+  background-color: rgb(209, 208, 208);
+}
+
+/* showcase */
+.card-img {
+  height: 400px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.heading {
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: none;
+  text-align: center;
+}
+
+.image-container {
+  background-color: black;
 }
 
 .core {
@@ -101,6 +164,31 @@ h3 {
   margin: 10px;
 }
 
+/* Utilities */
+
+/* apply blue hyf color to text like bootstrap */
+.hyf-color {
+  color: var(--color-one);
+}
+
+/* apply blue hyf color to the background like bootstrap */
+.hyf-bg-color {
+  background-color: var(--color-one);
+  color: white;
+}
+
+.hyf-color-light {
+  color: var(--color-two);
+}
+
+/* apply blue hyf color to the background like bootstrap */
+.hyf-bg-color-light {
+  background-color: var(--color-two);
+  color: white;
+}
+
+/* Animations */
+
 @keyframes slidein {
   0% {
     margin-left: 0%;
@@ -115,36 +203,6 @@ h3 {
   }
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-light .navbar-toggler {
-  color: transparent;
-  border: transparent;
-}
-
-.navbar-nav {
-  font-family: sans-serif;
-  font-size: 70%;
-  font-weight: lighter;
-}
-
-.nav-item a:hover {
-  text-decoration: underline solid 3px rgb(58, 78, 202);
-  text-underline-offset: 8px;
-}
-
-.nav-item button {
-  background-color: rgb(58, 78, 202);
-  font-size: small;
-  font-weight: bold;
-}
-
-.navbar-toggler-icon:hover {
-  background-color: rgb(209, 208, 208);
-}
-
 .text-color {
   background-color: rgb(58, 78, 202) !important;
 }
@@ -153,12 +211,13 @@ h3 {
   color: rgb(58, 78, 202);
 }
 
-.hyf-color {
-  color: var(--color-one);
-}
-
 .testTxt {
   text-align: center;
   font-size: 50px;
   font-family: "Kaushan Script", cursive;
 }
+
+/* Hover effect for donation */
+
+/* #select-amount ul > li:hover {
+  background-color: #0d6efd; */
