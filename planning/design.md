@@ -7,3 +7,7 @@ Our project is to redesign HYF-website.
 ## The Program
 
 ![design](assets/design2program.png)
+
+## About Page's design
+
+![design](assets/aboutDesign.png)
