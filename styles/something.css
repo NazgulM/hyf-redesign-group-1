@@ -248,3 +248,12 @@ h3 {
 .smcards {
   width: 14rem;
 }
+
+.sucbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  margin-top: auto;
+}
