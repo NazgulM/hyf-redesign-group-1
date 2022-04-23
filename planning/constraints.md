@@ -32,8 +32,6 @@ Project deadline is two weeks.
 
 :ballot_box_with_check: CSS
 
-:ballot_box_with_check: BOOTSTRAP V5.0
-
 <!--
   constraints that come from within your team, and you have no control over them. they may include:
   - each of your individual skill levels

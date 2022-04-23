@@ -33,8 +33,7 @@
 
 ## Screenshots
 
-![Example screenshot1](./assets/hyf-redesign-1.png)
-![Example screenshot1](./assets/hyf-redesign-p.png)
+![Example screenshot](assets/screenshot-hyf.png)
 
 ## Technologies
 
@@ -45,7 +44,7 @@
 
 ## Code Examples
 
-![Example screenshot](./assets/code-example2.png)
+![Example screenshot](assets/code-example.png)
 
 ## Features
 

@@ -12,22 +12,22 @@ are necessary for basic usability:
 - As a student, I want to see the title of the website immediately so that I
   know to where to navigate.
 
-  - [x] There is a title page with nav bar.
+  - [ ] There is a title page with nav bar.
 
 - As a student, I want to know the language of instruction is, content of the
   course, how long, where and when the course takes.
 
-  - [x] There is a content section where information about the course is
+  - [ ] There is a content section where information about the course is
         explained.
-  - [x] Requirement for application and application.
+  - [ ] Requirement for application and application.
 
 - As a student, I want to know the benefits of the program.
-  - [x] There is a section where impact/testimonial is provided.
+  - [ ] There is a section where impact/testimonial is provided.
 - As a student I want to know how I can contact HYF should I have any questions.
-  - [x] There is a form for info request.
+  - [ ] There is a form for info request.
 - As a student, I want to know if there are campuses outside of Brussels or near
   where I live.
-  - [x] A map where Hack Your Future is pinned in different
+  - [ ] A map where Hack Your Future is pinned in different
         locations/regions/countries.
 - As a student, I have miscellaneous questions and I want to see what others
   might have asked and the responses they received.
@@ -52,7 +52,7 @@ are necessary for basic usability:
         workflow.
 - As a technical director, I want to show students and potential partners to
   show who trusts HYF mission and works together.
-  - [x] List of partners to see who trusts HYF.
+  - [ ] List of partners to see who trusts HYF.
 - As a technical director, I may have or or receive miscellaneous questions.
   Hence I want to check ready Q&As.
   - [ ] There is Frequently asked questions section.
@@ -82,13 +82,13 @@ are necessary for basic usability:
 - As a mentor, I want to apply to contribute my part in giving back to the
   community.
 
-  - [x] Quick apply button where a potential mentor submits his info so that HYF
+  - [ ] Quick apply button where a potential mentor submits his info so that HYF
         reaches back.
 
 - As a mentor, I want to hear about the experiences, hardships from current and
   previous coaches.
-  - [x] Testimonial from coaches.
-  - [x] Benefits of becoming a mentor.
+  - [ ] Testimonial from coaches.
+  - [ ] Benefits of becoming a mentor.
 - As a mentor, I want to know the flexibility of the work.
   - [ ] information how coaches work. Is it online or offline or combination
         work.
@@ -104,13 +104,13 @@ will complete the user experience, but are not necessary:
 
 - As a student, I want to keep updated with news posts, information, upcoming
   events from HYF.
-  - [x] Links to social media pages of HYF.
+  - [ ] Links to social media pages of HYF.
 - As a student I want to know what HYF values.
-  - [x] There is core values and missions of HYF section.
+  - [ ] There is core values and missions of HYF section.
 - As a student, I want to be inspired by seeing pictures/videos of others
   enrolled in HYF
-  - [x] Picture of students in class, events, workshops.
-  - [x] Successful stories of students.
+  - [ ] Picture of students in class, events, workshops.
+  - [ ] Successful stories of students.
 
 > **Technical Director**
 
