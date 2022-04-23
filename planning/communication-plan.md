@@ -7,8 +7,6 @@
 - Please try to show-up for daily stand-ups if it's in the time frame you
   indicated you'll be available for
 
----
-
 ## Communication Schedule
 
 | Day       | How | The topic of discussion                                                    |
