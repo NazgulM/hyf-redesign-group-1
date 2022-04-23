@@ -17,3 +17,7 @@ Our project is to redesign HYF-website.
 ## About Page's design
 
 ![design](assets/aboutDesign.png)
+
+## FAQ Page
+
+![design](./assets/faq-page.png)
