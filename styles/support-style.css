@@ -1,0 +1,180 @@
+:root {
+  --color-one: rgb(28, 34, 148);
+  --color-two: #e5e5e5;
+}
+
+p {
+  font-family: "Space Mono", monospace, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* navbar */
+.image {
+  height: 50px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border: transparent;
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+  font-size: 70%;
+  font-weight: lighter;
+}
+
+.nav-item a:hover {
+  text-decoration: underline solid 3px rgb(58, 78, 202);
+}
+
+.nav-item button {
+  background-color: rgb(58, 78, 202);
+  font-size: small;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon:hover {
+  background-color: rgb(209, 208, 208);
+}
+
+/*  section-1 */
+.partner-main {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.container-1 {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+}
+
+.text {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 50px 0 0;
+  width: 50%;
+  order: 1;
+}
+
+.heading-1 {
+  font-size: 36px;
+  line-height: 120%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(74, 80, 187);
+  text-align: left;
+}
+
+.text-1 {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: 470px;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.contact-us {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+}
+
+.container-image {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  min-height: 400px;
+  order: 2;
+  padding: 0 0 0 50px;
+  align-items: stretch;
+}
+
+.image-partner {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: flex-start;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  background: url(/hyf-redesign-group-1/assets/teamwork.png) 0% 0% / cover
+    transparent;
+}
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .container-1 {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .text {
+    width: 100%;
+    order: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 20px;
+  }
+
+  .container-image {
+    width: 100%;
+    order: 2;
+    padding: 0;
+  }
+}
