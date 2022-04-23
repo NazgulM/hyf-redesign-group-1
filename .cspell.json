@@ -23,6 +23,7 @@
     "Piacquadio",
     "Shewit",
     "slidein",
+    "smcards",
     "socio",
     "Todos",
     "Victoriya",
@@ -171,7 +172,8 @@
     "Mo߱p",
     "mxgԡ",
     "Rgxc",
-    "X"
+    "X",
+    "sucbody"
   ],
   "ignorePaths": [
     "node_modules/**",

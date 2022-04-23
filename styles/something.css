@@ -46,7 +46,6 @@ h3 {
 
 .nav-item a:hover {
   text-decoration: underline solid 3px rgb(58, 78, 202);
-  text-underline-offset: 8px;
 }
 
 .nav-item button {
@@ -60,8 +59,9 @@ h3 {
 }
 
 /* showcase */
-.card-img {
+.showcase-img {
   height: 400px;
+  width: 100%;
   object-fit: cover;
   opacity: 0.7;
 }
@@ -247,4 +247,13 @@ h3 {
 
 .smcards {
   width: 14rem;
+}
+
+.sucbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  margin-top: auto;
 }
