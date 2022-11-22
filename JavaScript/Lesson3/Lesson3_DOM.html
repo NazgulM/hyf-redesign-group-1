@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson Js-Dom</title>
+</head>
+<body>
+ 	<p id="par2">Some paragraph from learning </p>
+ 	<p id="par3">Second paragraph from learning </p>
+ 	<p id="par2">Other paragraph</p>
+ 	<p>Some text from learning </p>
+	<p id="test"></p>
+	<hr>
+	<p class="par2">Text class 1</p>
+	<p class="lessonjs">Text class 1</p>
+	<p class="lessonjs">Text class 2</p>
+	<p class="lessonjs">Text class 3</p>
+	<div class="lessonjs">
+		<h4>This is Ferrari: </h4>
+		<img src="https://i.ytimg.com/vi/I8rvHPahW0M/maxresdefault.jpg">
+   </div>
+	<p class="lessonjs">Text class 4</p>
+	<p id="test2"></p>
+	<p id="test3"></p>
+<script type="text/javascript">
+	const elements = document.getElementsByTagName('p');
+	let textSample = 'I want to print out some text: '
+	document.getElementById('test').innerHTML = textSample + elements[1].innerHTML;
+
+    let textsample = 'Print out text from p class: '
+	let elemClass = document.getElementsByClassName('lessonjs');
+	document.getElementById('test2').innerHTML = textsample + '<b>' + elemClass[0].innerHTML;
+
+	let elemPar = document.querySelectorAll('p.par2');
+	let textsample2 = 'Print out texts from paragraphs: ';
+	document.getElementById('test3').innerHTML = textsample2 + '<b>' + elemPar[0].innerHTML + '</b>';
+ 
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson3 - JS If Else, switch HW</title>
+</head>
+<body>
+
+<p id="test"></p>
+
+<p id="test2"></p>
+
+<script type="text/javascript">
+	let age  = 72;
+
+	if(age === 18) {
+		document.getElementById('test').innerHTML = 'You can vote!';
+	} else if (age < 18) {
+		document.getElementById('test').innerHTML = 'You are so young to vote!';
+	} else if (age > 70){
+		document.getElementById('test').innerHTML = 'You can vote! and  You can vote at home!';
+	}
+
+	var age2 = 16;
+
+	switch(age2) {
+
+		case 18:
+			document.getElementById('test2').innerHTML = 'You can vote!';
+			break;
+
+		case 16:
+			document.getElementById('test2').innerHTML = 'You are so young to vote!';
+			break;
+
+		case 75:
+			document.getElementById('test2').innerHTML = 'You can vote! and  You can vote at home!';
+			break;
+
+    }
+
+
+
+
+
+
+</script>
+</body>
+</html>

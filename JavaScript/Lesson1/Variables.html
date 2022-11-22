@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Variables creation - Lesson JS</title>
+	<script type="text/javascript">
+		// Creating number variables
+		var e = 20;
+		let a,b,c,d;
+		a = 10;
+		b = 15;
+		c = 23;
+		d = 23.3;
+
+		let result = a+b+c+d+e;
+
+		let person = {firstName: 'Naza', lastName : "Aspinal"};
+		// result += 2;
+		result %=10;
+
+		// creating string variables
+		let nameWoman = 'Aisuluu';
+		let man = 'Tilek';
+		var cityName = 'Bishkek';
+
+		/*
+			Functions that helps us to find
+			result
+
+		*/
+		function calculate() {
+			document.getElementById('test').innerHTML = result;
+		}
+
+		function showName() {
+			let childName = 'Adilet'
+			document.getElementById('test2').innerHTML = nameWoman + " and " + man + " are married and their child is " + childName +  " and their city is " + cityName;
+		}
+
+		function showResultAlert () {
+			alert(result)
+		}
+
+		function showInfo() {
+			document.getElementById('test3').innerHTML = person['firstName'];
+		}
+
+		
+	</script>
+</head>
+<body>
+	<p id="test"></p>
+	<button onclick="calculate()">Show</button>
+
+	<p id="test2"></p>
+	<button onclick="showName()">Show</button>
+	<hr>
+	<button onclick="showResultAlert()">Show Result Alert</button>
+	<hr>
+	<p id="test3"></p>
+	<button onclick="showInfo()">Show name</button>
+</body>
+</html>

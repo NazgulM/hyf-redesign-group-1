@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson2 - practice farenheit</title>
+</head>
+<body>
+
+<p id="farenheit"></p>
+<button onclick="findCelcium(75)">Click here to convert to Celcium from Farenheit</button>
+
+<script type="text/javascript">
+	
+	function findCelcium(celcium) {
+    	let result = (celcium - 32) /1.8;
+    	document.getElementById('farenheit').innerHTML = result; 
+	}
+</script>
+</body>
+</html>

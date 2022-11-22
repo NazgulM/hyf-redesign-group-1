@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson DOM-select</title>
+</head>
+<body>
+<form>
+	<select id="selectform">
+		<option>Mers</option>
+		<option>BMW</option>
+		<option>Opel</option>
+		<option>Toyota</option>
+
+		<button onclick="myChoice()" id="btnselect">Select</button>
+	</select>
+<p>CHOICE</p>
+<p id="selected"></p>
+<script type="text/javascript">
+	const btn = document.querySelector('#btnselect');
+	const sform = document.querySelector('#selectform')
+	
+	let info = document.getElementByID('selectform').value;
+ 	
+ 	btn.onclick = (event) => {
+    	event.preventDefault();
+    	alert(sform.options[sform.selectedIndex].text)
+ 	}
+	// document.getElementByID('selected').innerHTML = sform.options[sform.selectedIndex].text;
+
+</script>
+</form>
+</body>
+</html>

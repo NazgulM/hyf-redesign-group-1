@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson 2-variables</title>
+</head>
+<body>
+
+<h1>Lesson objects</h1>
+
+Name of a person: 
+<p id="test"></p>
+
+Second name of a person: 
+<p id="test2"></p>
+
+Salary after taxes: 
+<p id="test3"></p>
+
+Second Name: 
+<p id="test4"></p>
+
+Just random number: 
+<p id="test5"></p>
+
+<script type="text/javascript">
+	let obj1 = {firstName:'Oleg', lastName: 'Tinkoff'};
+	let infoSalary = {workerName: 'Natasha Koroleva', salary: 45000}
+    let someList = [123,32, 43543, 54, 65]
+    let someList2 = ['Askar', 'Tilek', 'Natasha']
+
+    let number1 = 123;
+    let name = 'Naza'
+    let PI = 3.14;
+
+	document.getElementById('test').innerHTML = obj1["firstName"];
+	document.getElementById('test2').innerHTML = obj1["lastName"];
+
+	let result = infoSalary['salary'] - infoSalary['salary'] * 0.1;
+	document.getElementById('test3').innerHTML = result;
+
+	document.getElementById('test4').innerHTML = someList2[1];
+	document.getElementById('test5').innerHTML = someList[2];
+
+	document.write(typeof(someList))
+</script>
+</body>
+</html>

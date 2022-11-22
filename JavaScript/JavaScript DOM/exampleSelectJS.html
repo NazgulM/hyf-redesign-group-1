@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson Select DOM</title>
+</head>
+<body>
+<select id="selectform">
+	<option>Agent 007</option>
+	<option>Titanic</option>
+	<option>Duna</option>
+	<option>Shrek</option>
+</select>
+
+<button onclick="selectMovie()">Select</button>
+
+<p id="selectedmovie"></p>
+
+<script type="text/javascript">
+	function selectMovie (){
+
+	let choice = document.getElementById('selectform').value;
+
+	if(choice =='Titanic') {
+		document.getElementById('selectedmovie').innerHTML = "You selected movie: Titanic <br> <img src = 'https://stihi.ru/pics/2014/09/05/5656.jpg'> <br> and here you can watch: <br> <a href = 'https://www.youtube.com/watch?v=FSGeskFzE0s'>Titanic movie</a>"  
+	}
+	else if (choice == 'Shrek') {
+		document.getElementById('selectedmovie').innerHTML = "You selected movie: Shrek <br> <img src = 'http://1.bp.blogspot.com/-to2fsDb-AYs/UevioeetzzI/AAAAAAAABZQ/MkAC406Z89Q/s640/4wZzh2BZzr.jpg'> <br> and here you can watch: <br> <a href = 'https://www.youtube.com/watch?v=FSGeskFzE0s'>Shrek movie</a>"
+	}
+	}
+</script>
+</body>
+</html>

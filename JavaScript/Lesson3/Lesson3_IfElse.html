@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LEsson Js - If else</title>
+</head>
+<body>
+
+<p id="test">
+<!-- Good evening! --></p>
+
+<script type="text/javascript">
+
+	var textHello = " ";
+	const timeLocal = new Date().getHours();
+	if ( timeLocal < 18) {
+		textHello = 'Good day!'
+	}
+	else if (timeLocal > 22) {
+
+		textHello = 'Good night!'
+	}
+	else {
+		textHello = 'Good evening!'
+	}
+
+	document.getElementById('test').innerHTML = textHello;
+</script>
+</body>
+</html>

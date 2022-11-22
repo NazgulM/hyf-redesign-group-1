@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson JS DOM - HW</title>
+</head>
+<body>
+
+<p id="test"></p>
+<button onclick="findSum()">Find sum</button>
+
+<p id="test2"></p>
+<button onclick="findAverage()">Find average</button>
+
+<p id="test3"></p>
+<button onclick="findSumFor()">Find sum with for loop</button>
+
+<p id="test4"></p>
+<button onclick="findAverageForOf()">Find average with for of loop</button>
+
+<p id="test5"></p>
+<button onclick="findSumWhile()">Find sum with while loop</button>
+
+<p id="test6"></p>
+<button onclick="findAverageDoWhile()">Find average with do while loop</button>
+
+<script type="text/javascript">
+	
+	let myArray = [10, 31, 45, 66, 88]
+	
+	function findSum() {
+		let total = 0;
+		for(let i in myArray) {
+			total += myArray[i];
+		}
+		document.getElementById('test').innerHTML = total;
+	}
+		
+	function findAverage() {
+		let total = 0;
+		for(let i in myArray) {
+			total += myArray[i];
+		}
+		let avg = total/myArray.length;
+		document.getElementById('test2').innerHTML = avg;
+	}
+
+	function findSumFor() {
+		let total = 0;
+		for(let i = 0; i < myArray.length; i++) {
+			total += myArray[i];
+		}
+		document.getElementById('test3').innerHTML = total;
+	}
+
+	function findAverageForOf() {
+		let total = 0;
+		for(let i of myArray) {
+			total += i;
+		}
+		let avg = total/myArray.length;
+		document.getElementById('test4').innerHTML = avg;
+	}
+	
+	function findSumWhile() {
+		let i = 0;
+		let total = 0;
+		while (i < myArray.length) {
+			total = total+myArray[i];
+			i++;
+		}
+		document.getElementById('test5').innerHTML = total;
+	}
+
+	function findAverageDoWhile() {
+		let i = 0;
+		let total = 0;
+		let avg = 0;
+		
+		do {
+			total = total+myArray[i];
+			i++;
+			avg = total/myArray.length;
+		} while (i < myArray.length); 
+			total = total+myArray[i];
+			i++;
+		
+		document.getElementById('test6').innerHTML = avg;
+	}
+
+
+</script>
+</body>
+</html>

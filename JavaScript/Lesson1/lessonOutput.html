@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson output</title>
+	<script type="text/javascript">
+		function foo() {
+			document.write(120/12);
+		}
+	</script>
+</head>
+<body>
+<h2>Method of output information</h2>
+<p id="output1" style="font-size: 25px; color: blue; border: 2px solid green; text-align: center;"></p>
+
+<button onclick="foo()">Show difference</button>
+
+<script type="text/javascript">
+		document.getElementById('output1').innerHTML = 99 % 10;
+		document.write(10+15);
+	</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson DOM - CSS</title>
+</head>
+<body>
+
+<p id="textpar">Text Sample</p>
+
+<p id="test">I am new paragraph</p>
+<button onclick="changeText()">Click me</button>
+
+<form onsubmit="return myFunction()" name="nameForm">
+	<label>Name: </label>
+	<input type="text" name="firstname" id="firstname">
+    
+    <label>Age: </label>
+	<input type="text" name="age" id="age">
+
+
+	<label>Address: </label>
+	<input type="text" name="address" id="address">
+
+	<input type="submit" value="Confirm">
+</form>
+
+<script type="text/javascript">
+	document.getElementById('textpar').style.backgroundColor = 'pink';
+	document.getElementById('textpar').style.fontSize = '36px';
+	document.getElementById('textpar').style.color = 'red';
+	document.getElementById('textpar').style.border = '2px solid blue';
+
+	function changeText() {
+
+	document.getElementById('test').style.backgroundColor = 'pink';
+	document.getElementById('test').style.fontSize = '42px';
+	document.getElementById('test').style.border = '2px solid blue';
+    }
+
+    function myFunction() {
+
+		let myName = document.forms['nameForm']['firstname'].value;
+		
+		let myAge = document.forms['nameForm']['age'].value;
+		
+		let myAddress= document.forms['nameForm']['address'].value;
+		
+		alert("Your info is : " + ' ' + myName  +  ' ' + myAge  +  ' '+ myAddress);
+
+		// document.getElementById('infopar').innerHTML = info;
+
+		if (myName == " " || myAge == " " || myAddress ==" " ) {
+			alert('You must type your info');
+			return false;
+		}
+		}
+</script>
+</body>
+</html>

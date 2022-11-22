@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson JS - Switch</title>
+</head>
+<body>
+
+<p id="test"></p>
+
+<script type="text/javascript">
+	const dayWeek = new Date().getDay();
+	let textWeek;
+
+	switch(dayWeek)
+	{
+		case 1:
+			textWeek = 'Today is Monday! First working day!';
+			break;
+		case 2:
+			textWeek = 'Today is Tuesday! Second working day!';
+			break;
+		case 3:
+			textWeek = 'Today is Wednesday! Third working day!';
+			break;
+		case 4:
+			textWeek = 'Today is Thursday! Fourth working day!';
+			break;
+		case 5:
+			textWeek = 'Today is Friday! Fifth working day!';
+			break;
+		case 6:
+			textWeek = 'Today is Saturday! It is a weekend!';
+			break;
+		case 0:
+			textWeek = 'Today is Sunday! It is a weekend!';
+			break;
+		default:
+			textWeek = 'Not correct number!';
+	}
+
+
+	document.getElementById('test').innerHTML = textWeek;
+</script>
+</body>
+</html>

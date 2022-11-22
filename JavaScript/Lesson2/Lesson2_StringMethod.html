@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	let txt = 'my name is Naza';
+	let lengthtext = txt.length;
+
+	document.write(lengthtext);
+
+	names = 'David, Murat, Sergei, Adam';
+	let partname = names.slice(6, 20);
+	let partname2 = names.slice(22, 26)
+
+	document.write('<br>'+ partname);
+	document.write('<br>'+ partname2);
+
+	let text2 = 'I live in Brusssels';
+	document.write('<br>'+ text2.indexOf('Brusssels'));
+	document.write('<br>'+ text2.search('Brusssels'));
+    	
+    let number_str = '55';
+    let number_str2 = '  123  ';
+    let number_str3 = 'One';
+
+    let num1 = '54';
+    let num2 = '54 age'
+    let num3 = 'age 54'
+    let num_float = '23.435';
+
+
+
+    let int_number1 = Number(number_str);
+    let int_number2 = Number(number_str2);
+    let int_number3 = Number(number_str3)
+    let int_number4 = parseInt(num1);
+    let int_number5 = parseInt(num_float);
+    let int_number6 = parseInt(num2);
+    let int_number7 = parseInt(num3);
+
+
+    document.write('<br>'+ typeof(number_str));
+    document.write('<br>'+ typeof(int_number1));
+    document.write('<br>'+ int_number1);
+    document.write('<br>'+ Number(number_str));
+
+    document.write('<hr><br>'+ typeof(number_str2));
+    document.write('<br>'+ typeof(int_number2));
+    document.write('<br>'+ int_number2);
+   
+    document.write('<hr><br>'+ typeof(number_str3));
+    document.write('<br>'+ typeof(int_number3));
+    document.write('<br>'+ int_number3);
+
+    document.write('<hr><br>'+ typeof(num1));
+    document.write('<br>'+ typeof(int_number4));
+    document.write('<br>'+ int_number4);
+
+    document.write('<hr><br>'+ typeof(num_float));
+    document.write('<br>'+ typeof(int_number5));
+    document.write('<br>'+ int_number5);
+   
+
+    document.write('<hr><br>'+ typeof(num3));
+    document.write('<br>'+ typeof(int_number7));
+    document.write('<br>'+ int_number7);
+
+    
+    
+
+
+</script>
+</body>
+</html>

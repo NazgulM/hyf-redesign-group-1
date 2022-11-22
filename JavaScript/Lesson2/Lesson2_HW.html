@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson JS - HW</title>
+</head>
+<body>
+<h2 style="color: green;">List of Products: </h2>
+<ol id="test">
+	<li> </li>
+	<li> </li>
+	<li> </li>
+	<li> </li>
+	<li> </li>
+</ol>
+
+<input type="button" value='Add Products!' onclick="addProduct()" style="background-color: green; color: white;" />
+
+<script type="text/javascript">
+	
+	let one = 'Milk';
+	let two = 'Yoghurt';
+	let three = 'Meat';
+	let four = 'Onion';
+	let five = 'Tomato';
+	let list = []
+
+function addProduct() {
+		let products  =['Milk', 'Yoghurt', 'Meat', 'Onion', 'Tomato'];
+		for (var i = 0; i < products.length; i++) {
+			
+			// find this element by index
+			var li = document.getElementById('test').children[0];
+			
+			// set text to every element
+			li.textContent = products[i];
+
+			//append this element to its parent
+			document.getElementById('test').appendChild(li)
+		}
+		
+		
+	}
+</script>
+</body>
+</html>

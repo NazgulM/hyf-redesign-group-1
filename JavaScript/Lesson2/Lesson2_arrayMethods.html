@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson JS -Array methods</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	let workerName = ['Oleg', 'Nikolai', 'Aisuluu', 'Aiperi'];
+
+	document.write(workerName.toString());
+	document.write('<br>' + workerName.join(', '));
+	
+	// delete element fromm th eend of array
+	workerName.pop()
+	document.write('<br>' + workerName.join(', '));
+
+	let lastname = workerName.pop();
+	document.write('<br>' + lastname);
+
+	// add new element to the end
+	workerName.push('Naza', 'Chika')
+	document.write('<br>' + workerName.join(', '));
+
+	//shift method delete element from the 0 index
+	workerName.shift();
+	document.write('<br>' + workerName.join(', '))
+
+	// unshift method adding element in the begging of the array
+	workerName.unshift('Nursultan');
+	document.write('<br>' + workerName.join(', '))
+
+	//delete element by index 
+	delete workerName[3];
+	document.write('<br>' + workerName.join(', '));
+
+	let thirdName = workerName[2];
+	document.write('<br>' + thirdName);
+
+	workerName[3] = 'Aruuke';
+    document.write('<br>' + workerName.join(', '));
+
+    //slices
+    document.write('<br>' + workerName.slice(1));
+    document.write('<br>' + workerName.slice(0, 2));
+
+    //sort method
+    workerName.sort();
+    document.write('<br>' + workerName.join(', '));
+
+    let numbers = [12, 23,4, 8,9, 45, 99];
+    numbers.sort()
+    document.write('<br>' + numbers);// does not work
+
+    numbers.sort(function(n1, n2){return n1-n2});
+    document.write('<br>' + numbers);
+
+    //Sort method reverse order
+    workerName.reverse();
+    document.write('<br>' + workerName.join(', '));
+
+   numbers.reverse();
+   document.write('<br>' + numbers);
+    
+
+</script>
+</body>
+</html>

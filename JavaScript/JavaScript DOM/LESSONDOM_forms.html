@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LESSON DOM- Forms</title>
+</head>
+<body>
+
+<form onsubmit="return formValidate()" name="nameform">
+	<label>Name: </label>
+	<input type="text" name="firstname" id="firstname">
+
+	<input type="submit" value="Confirm">
+</form>
+
+
+<p id="infopar"></p>
+<script type="text/javascript">
+		function formValidate() {
+
+
+		let info = document.forms['nameform']['firstname'].value;
+
+		alert("Your name is: " + info);
+		// document.getElementById('infopar').innerHTML = info;
+
+		if (info == " ") {
+			alert('You must type your name!');
+			return false;
+		}
+		}
+	</script>
+</body>
+</html>
